@@ -1,0 +1,23 @@
+nav {
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid orangered;
+}
+
+nav * {
+  margin: var(--padding);
+}
+
+nav h1 {
+  color: white;
+}
+
+.nueva {
+  display: flex;
+  flex-direction: column;
+}
+
+.nueva * {
+  margin: 8px 0px;
+}

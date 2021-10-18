@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/ofertas.css">
+    <title>CPIFP | Nueva oferta</title>
+</head>
+<body>
+    <%- include('partials/nav'); %>
+    <form class="nuevo" action="/" method="POST">
+        <input type="text" name="nombre">
+        <input type="text" name="descripcion">
+        <input type="submit" value="Crear">
+    </form>
+    <%- include('partials/footer'); %>
+</body>
+</html>
